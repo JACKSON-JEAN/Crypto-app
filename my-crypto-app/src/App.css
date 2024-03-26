@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.coin-pp{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.coin-search h1{
+  font-size: 22px;
+  margin-top: 15px;
+  text-align: center;
+  color: #333;
+}
+.coin-search form{
+  margin: 20px auto;
+  display: flex;
+  
+}
+.form-input{
+  width: 250px;
+  padding: 7px 10px;
+  border: 1px solid lightblue;
+  margin: 0px auto;
+  border-radius: 15px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.coin-search form input{
+  
+  width: 100%;
+  align-self: center;
+  border: none;
+  outline: none;
+}
+form .icon{
+  color: #333;
+  cursor: pointer;
+  font-weight: 200;
+  font-size: 14px;
+}
+.table{
+  max-height: 500px;
+  overflow: scroll;
+
+}
+table{
+  width: 700px;
+  border-collapse: collapse;
+  font-size: 13px;
+  
+}
+table thead, th{
+  background-color: #333;
+  border: 1px solid #333;
+  color: aliceblue;
+  
+}
+table tbody tr:nth-child(odd){
+  background-color: aliceblue;
+}
+table th{
+  text-align: start;
+  padding: 3px;
+}
+table td{
+  text-align: start;
+  border: 1px solid #ddd;
+  padding: 1px 3px;
+}
+table td img{
+  height: 14px;
+  margin-right: 10px;
+  
+}
+.red{
+  color: red;
+}
+.green{
+  color: green;
+}
